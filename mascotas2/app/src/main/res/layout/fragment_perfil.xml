@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/civPerfil"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/beagle"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="2dp"
+        app:civ_shadow_radius="10dp"
+        app:civ_shadow_color="@color/colorAccent" />
+    <TextView
+        android:id="@+id/tvNombrePerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Beagle"
+        android:layout_marginTop="16dp"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFotosPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

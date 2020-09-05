@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mascotas_Final</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app">Esta es una aplicación movil de mascotas</string>
+    <string name="autor">Desarrollada por: Zuleidy Yaruro</string>
+    <string name="correo">zvyaruro@gmail.com</string>
+    <string name="año">2020</string>
+    <string name="about">Acerca de Nosotros</string>
+
+
+</resources>
